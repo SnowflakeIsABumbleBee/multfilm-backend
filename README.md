@@ -41,11 +41,11 @@ Aktuell befindet sich das Projekt in der konzeptionellen und strukturellen Aufba
 Für das Projekt denken wir aktuell über eine Datenstruktur mit folgenden zentralen Elementen nach:
 
 - User
-repräsentiert eine Nutzerin oder einen Nutzer
+  repräsentiert eine Nutzerin oder einen Nutzer
 - Movie
-repräsentiert einen Film mit grundlegenden Informationen
+  repräsentiert einen Film mit grundlegenden Informationen
 - MovieEntry
-verknüpft einen User mit einem Film und speichert den Status, zum Beispiel TO_WATCH oder SEEN
+  verknüpft einen User mit einem Film und speichert den Status, zum Beispiel TO_WATCH oder SEEN
 
 ## Beispielhafte Endpunkte
 
@@ -81,7 +81,7 @@ verknüpft einen User mit einem Film und speichert den Status, zum Beispiel TO_W
 Die Anwendung kann mit Gradle gestartet werden:
 
 bash
-./gradlew.bat bootRun
+- `./gradlew.bat bootRun`
 
 ## Technologien
 
