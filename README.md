@@ -40,11 +40,11 @@ Aktuell befindet sich das Projekt in der konzeptionellen und strukturellen Aufba
 
 Für das Projekt denken wir aktuell über eine Datenstruktur mit folgenden zentralen Elementen nach:
 
-- User
+- `User`
   repräsentiert eine Nutzerin oder einen Nutzer
-- Movie
+- `Movie`
   repräsentiert einen Film mit grundlegenden Informationen
-- MovieEntry
+- `MovieEntry`
   verknüpft einen User mit einem Film und speichert den Status, zum Beispiel TO_WATCH oder SEEN
 
 ## Beispielhafte Endpunkte
@@ -121,6 +121,6 @@ Im weiteren Verlauf soll das Projekt um zusätzliche Funktionen erweitert werden
 
 ## Team
 
-- Viktoria Schauder
 - Olesia Kryvosheieva
+- Viktoria Schauder
 
