@@ -1,11 +1,14 @@
 package de.htw_berlin.multfilm;
 
+//die Klasse MovieEntry, verknüpft einen User mit einem Film und speichert den Status, zum Beispiel TO_WATCH,  SEEN oder FAVORITE
+//enthält Titel
+//enthält Setter und Getter
+
 public class MovieEntry {
     String title;
     boolean seen;
     boolean toWatch;
     boolean favorite;
-
 
 
 
