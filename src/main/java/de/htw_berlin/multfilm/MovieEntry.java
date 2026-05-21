@@ -12,6 +12,7 @@ public class MovieEntry {
 
 
 
+
     public MovieEntry(String title) {
         this.title = title;
     }
