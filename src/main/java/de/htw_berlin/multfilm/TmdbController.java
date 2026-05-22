@@ -6,7 +6,7 @@ import java.util.Map;
 import org.springframework.web.bind.annotation.*;
 
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 //der Controller TmdbController stellt Endpunkte fuer Filmdaten aus der TMDB-API bereit
 //enthaelt Endpunkte fuer Filmdetails wie Titel, Beschreibung, Poster, Erscheinungsdatum, Genres, Cast und Regisseur
 @RestController
