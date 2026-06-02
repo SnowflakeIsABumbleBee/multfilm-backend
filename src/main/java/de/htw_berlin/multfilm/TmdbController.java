@@ -73,7 +73,7 @@ public class TmdbController {
     }
 
 
-    @CrossOrigin
+//    @CrossOrigin
     //liefert eine Liste aktuell trendender Filme aus der TMDB-API
     @GetMapping("/trending")
     public List<Map<String, Object>> trending() {
