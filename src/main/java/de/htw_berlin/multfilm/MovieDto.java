@@ -1,5 +1,10 @@
 package de.htw_berlin.multfilm;
 
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jdk.jfr.Enabled;
+import org.springframework.data.annotation.Id;
+
 import java.util.List;
 
 //record für die Film-Details, die von der TMDB API zurückgegeben werden
@@ -8,7 +13,10 @@ import java.util.List;
 //wird von MovieService erstellt und von TmdbController zurückgegeben
 //record ist eine spezielle Klasse in Java, die hauptsächlich Daten enthält 
 //und automatisch Getter, equals, hashCode und toString generiert
+@Enabled
 public record MovieDto(
+        @Id
+        @GeneratedValue(strategy = GenerationType.IDENTITY)
         String title,
         String overview,
         String posterUrl,
